@@ -10,11 +10,20 @@ This repository accompanies the manuscript above and provides dataset access, me
 
 ## Real-robot demonstration
 
+![Animated real-robot grasping demonstration](assets/real_robot_grasping_demo.gif)
+
+*Full-sequence preview at 3× playback speed; the original-speed video is linked below.*
+
+**[Watch the full video](assets/real_robot_grasping_demo.mp4)** · [Download the original MP4](https://github.com/lqx943576099/Industry_detect/raw/refs/heads/main/assets/real_robot_grasping_demo.mp4) (63.3 MB)
+
+<details>
+<summary>View the experiment montage and measurement overlays</summary>
+
 ![UR5 pick-and-place demonstration with tabletop-referenced bolt measurements](assets/real_robot_demo.jpg)
 
 *Top: stages of the UR5 pick-and-place sequence. Bottom: the observed tabletop, geometric localization, and predicted dimensions and positions alongside ground truth.*
 
-**[Watch the real-robot grasping demo](assets/real_robot_grasping_demo.mp4)** · [Download the original MP4](https://github.com/lqx943576099/Industry_detect/raw/refs/heads/main/assets/real_robot_grasping_demo.mp4) (63.3 MB)
+</details>
 
 A fixed, oblique-view **Astra Pro Plus** camera observes seven bolts on the workbench. The proposed perception interface supplies metric dimensions and tabletop positions to an existing large language model planner and UR5 operation interfaces. The planner generates calling code that connects these interfaces to execute the task.
 
@@ -113,6 +122,7 @@ Industry_detect/
 ├── assets/
 │   ├── pipeline.png           # Measurement pipeline
 │   ├── real_robot_demo.jpg    # UR5 demonstration montage
+│   ├── real_robot_grasping_demo.gif # Inline animated preview (3× speed)
 │   ├── real_robot_grasping_demo.mp4 # Original real-robot grasping video
 │   ├── hgec_results.png       # HGEC comparison from the manuscript
 │   └── README.md              # Figure provenance

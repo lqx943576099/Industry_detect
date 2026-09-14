@@ -29,6 +29,10 @@ Bolt results use full HGEC; washer measurements use the washer branch. Valid met
 
 ## Real-robot protocol and records
 
+![Animated real-robot grasping demonstration](../assets/real_robot_grasping_demo.gif)
+
+*Full-sequence preview at 3× playback speed; the original-speed video is linked below.*
+
 ![Real-robot interface integration on a UR5](../assets/real_robot_demo.jpg)
 
 **[Watch the real-robot grasping demo](../assets/real_robot_grasping_demo.mp4)** · [Download the original MP4](https://github.com/lqx943576099/Industry_detect/raw/refs/heads/main/assets/real_robot_grasping_demo.mp4) (63.3 MB)
