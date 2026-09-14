@@ -31,6 +31,8 @@ Bolt results use full HGEC; washer measurements use the washer branch. Valid met
 
 ![Real-robot interface integration on a UR5](../assets/real_robot_demo.jpg)
 
+**[Watch the real-robot grasping demo](../assets/real_robot_grasping_demo.mp4)** · [Download the original MP4](https://github.com/lqx943576099/Industry_detect/raw/refs/heads/main/assets/real_robot_grasping_demo.mp4) (63.3 MB)
+
 ### Setup and execution
 
 An Astra Pro Plus camera is fixed opposite the UR5 arm at an oblique angle covering the workspace. Seven bolts of different lengths are placed on the tabletop. The measurement interface outputs dimensions and tabletop coordinates; an existing large language model planner generates calling code using the measurement and robot-operation interface definitions.
